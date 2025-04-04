@@ -1,4 +1,5 @@
 @use '_variables' as *
+
 .section-navhead
     background: linear-gradient(0deg, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.9)), url('../assets/img/hero-bg.jpg') !important
     background-position: bottom
@@ -7,8 +8,14 @@
 
 nav
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))
+    height: 12vh
 
 .collapse
     gap: 40px
     justify-content: center
 // Pour que le menu de la nav soit centré
+
+.nav-link
+    transition: 0.2s all
+    &:hover
+        color : $yellowish !important

@@ -1,21 +1,24 @@
 @use '_variables' as *
 @use '_mixins' as *
 
+// Textes
+
 p
     font-family: DM Sans
     color : $text-white 
 
 nav
-    height: 12vh
     a
         font-family: DM Sans
-        font-size: 20px !important
+        font-size: 22px !important
         color : $text-white !important
-
-.btn1
-    @include btn1
 
 .nav-title
     text-transform: uppercase
     font-size: 40px !important
     letter-spacing: 2px
+
+// Boutons
+
+.btn1
+    @include btn1

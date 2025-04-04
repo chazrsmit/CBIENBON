@@ -10475,6 +10475,7 @@ readers do not read off random characters that represent icons */
 
 nav {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  height: 12vh;
 }
 
 .collapse {
@@ -10482,25 +10483,35 @@ nav {
   justify-content: center;
 }
 
+.nav-link {
+  transition: 0.2s all;
+}
+.nav-link:hover {
+  color: #cda45d !important;
+}
+
 p {
   font-family: DM Sans;
   color: #ffffff;
 }
 
-nav {
-  height: 12vh;
-}
 nav a {
   font-family: DM Sans;
-  font-size: 20px !important;
+  font-size: 22px !important;
   color: #ffffff !important;
+}
+
+.nav-title {
+  text-transform: uppercase;
+  font-size: 40px !important;
+  letter-spacing: 2px;
 }
 
 .btn1 {
   border-radius: 30px;
   background-color: transparent;
   cursor: pointer;
-  border: 2px #cda45d solid;
+  border: 3px #cda45d solid;
   font-family: DM Sans;
   text-transform: uppercase;
   font-size: 18px;
@@ -10510,12 +10521,6 @@ nav a {
   padding-top: 12px;
   padding-bottom: 12px;
   letter-spacing: 1px;
-}
-
-.nav-title {
-  text-transform: uppercase;
-  font-size: 40px !important;
-  letter-spacing: 2px;
 }
 
 @media (max-width: 992px) {
