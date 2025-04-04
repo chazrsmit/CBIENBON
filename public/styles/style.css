@@ -10511,6 +10511,10 @@ nav a {
 nav {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   height: 100px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 1000;
 }
 
 .collapse {
@@ -10527,6 +10531,9 @@ nav {
 
 header {
   height: 900px;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
 }
 header h1 {
   color: #ffffff;
@@ -10547,16 +10554,22 @@ header i {
 
 .header-texts {
   align-items: left;
-  justify-content: center;
-  border: green solid 2px;
+  justify-content: centerx;
 }
 
 .play {
   justify-content: center;
   align-items: center;
-  border: pink solid 2px;
 }
 
+@media (max-width: 576px) {
+  header h1 {
+    font-size: 36px !important;
+  }
+  header h4 {
+    font-size: 20px !important;
+  }
+}
 @media (max-width: 992px) {
   nav .btn1 {
     display: none !important;
@@ -10566,12 +10579,22 @@ header i {
   }
   header {
     flex-direction: column;
-  }
-  header .play {
-    border: green 2px solid;
+    gap: 20px;
   }
   header .header-texts {
-    border: pink 2px solid;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  header .header-texts h1, header .header-texts h4, header .header-texts div {
+    text-align: center !important;
+  }
+  .header-btns {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 /*!

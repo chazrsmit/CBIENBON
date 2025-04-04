@@ -1,15 +1,30 @@
+@media (max-width:576px)
+    header
+        h1
+            font-size: 36px !important
+        h4
+            font-size: 20px !important
+
 @media (max-width:992px)
     nav
         .btn1
             display: none !important
     .collapse, .navbar-collapse
         text-align: right
-    // pour que le menu apparaissent sur la droite quand on clique sur le hamburger icon
-
+        // pour que le menu apparaissent sur la droite quand on clique sur le hamburger icon
     header
         flex-direction: column
-        .play
-            border: green 2px solid
+        gap: 20px
         .header-texts
-            border: pink 2px solid
+            display: flex !important
+            flex-direction: column !important
+            align-items: center !important
+            justify-content: center !important
+            h1, h4, div
+                text-align: center !important
+    .header-btns
+        display: flex
+        gap: 20px
+        padding-top: 20px
+        padding-bottom: 20px
     

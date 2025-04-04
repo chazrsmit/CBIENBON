@@ -11,6 +11,10 @@
 nav
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
     height: 100px
+    position: fixed
+    width: 100%
+    top: 0px
+    z-index: 1000
 
 .collapse
     gap: 40px
@@ -24,6 +28,9 @@ nav
 
 header
     height: 900px
+    display: flex
+    justify-content: center !important
+    align-items: center !important
     h1
         color: $blanc
         font-size: 80px
@@ -38,9 +45,7 @@ header
         color: $blanc
 .header-texts
     align-items: left
-    justify-content: center
-    border: green solid 2px
+    justify-content: centerx
 .play
     justify-content: center
     align-items: center
-    border: pink solid 2px
