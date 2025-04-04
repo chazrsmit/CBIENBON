@@ -10477,6 +10477,11 @@ nav {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }
 
+.collapse {
+  gap: 40px;
+  justify-content: center;
+}
+
 p {
   font-family: DM Sans;
   color: #ffffff;
@@ -10492,14 +10497,19 @@ nav a {
 }
 
 .btn1 {
-  border-radius: 5px;
+  border-radius: 30px;
   background-color: transparent;
   cursor: pointer;
   border: 2px #cda45d solid;
   font-family: DM Sans;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 18px;
   color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  letter-spacing: 1px;
 }
 
 .nav-title {
