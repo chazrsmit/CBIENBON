@@ -10538,7 +10538,7 @@ header {
 }
 header h1 {
   color: #ffffff;
-  font-size: 80px;
+  font-size: 78px;
   font-weight: bold;
 }
 header h4 {
@@ -10551,6 +10551,14 @@ header span {
 }
 header i {
   color: #ffffff;
+  font-size: 18px;
+  background-color: #cda45d;
+  padding: 30px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  border-radius: 55%;
+  box-shadow: 0 0 0 12px rgba(205, 164, 93, 0.2666666667);
+  cursor: pointer;
 }
 
 .header-texts {
