@@ -2,9 +2,9 @@
 @use '_bases' as *
 
 .section-navhead
-    background: linear-gradient(0deg, rgba(39, 39, 39, 0.7), rgba(39, 39, 39, 0.7)), url('../assets/img/hero-bg.jpg') !important
-    background-position: bottom
-    background-size: contain
+    background: linear-gradient(0deg, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.6)), url('../assets/img/hero-bg.jpg') !important
+    background-position: 10% 50%
+    background-size: cover
     background-attachment: fixed
 
 nav
@@ -22,11 +22,22 @@ nav
         color : $yellowish !important
 
 header
-    height: 100vh
+    height: 90vh
     h1
         color: $blanc
+        font-size: 80px
+        font-weight: bold
     h4
         color: $blanc
         font-family: Playfair Display
     span
         color: $yellowish
+    i
+        color: $blanc
+.header-texts
+    align-items: left
+    justify-content: end
+    height: 600px
+.play
+    justify-content: center
+    align-items: end

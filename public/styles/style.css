@@ -10491,6 +10491,7 @@ nav a {
   font-family: DM Sans;
   text-transform: uppercase;
   font-size: 18px;
+  font-weight: bold;
   color: #ffffff;
   padding-left: 30px;
   padding-right: 30px;
@@ -10500,9 +10501,9 @@ nav a {
 }
 
 .section-navhead {
-  background: linear-gradient(0deg, rgba(39, 39, 39, 0.7), rgba(39, 39, 39, 0.7)), url("../assets/img/hero-bg.jpg") !important;
-  background-position: bottom;
-  background-size: contain;
+  background: linear-gradient(0deg, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.6)), url("../assets/img/hero-bg.jpg") !important;
+  background-position: 10% 50%;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -10524,10 +10525,12 @@ nav {
 }
 
 header {
-  height: 100vh;
+  height: 90vh;
 }
 header h1 {
   color: #ffffff;
+  font-size: 80px;
+  font-weight: bold;
 }
 header h4 {
   color: #ffffff;
@@ -10535,6 +10538,20 @@ header h4 {
 }
 header span {
   color: #cda45d;
+}
+header i {
+  color: #ffffff;
+}
+
+.header-texts {
+  align-items: left;
+  justify-content: end;
+  height: 600px;
+}
+
+.play {
+  justify-content: center;
+  align-items: end;
 }
 
 @media (max-width: 992px) {
