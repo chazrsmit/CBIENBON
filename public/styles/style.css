@@ -10472,7 +10472,7 @@ p, h1, h2, h4 {
 }
 
 p {
-  font-size: 22px !important;
+  font-size: 23px !important;
 }
 
 h3 {
@@ -10530,12 +10530,12 @@ html body {
 .section-1 img {
   object-fit: cover;
   border: rgba(54, 64, 71, 0.6941176471) 6px solid;
-  width: 46vw;
+  width: 45vw;
 }
 
 .div-img {
   position: relative;
-  width: 46vw !important;
+  width: 45vw !important;
   height: 500px;
 }
 
@@ -10547,7 +10547,7 @@ html body {
   display: block;
   border-top: 7.5px solid #cda45d;
   border-left: 7.5px solid #cda45d;
-  left: 187px;
+  left: 25px;
   top: 25px;
 }
 
