@@ -8,13 +8,16 @@
     @include padding-sect
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/img/about-bg.jpg') !important
     img
-        width: 40vw !important
+        object-fit: cover
         border: $border-img 6px solid
+        width: 46vw
 
 // créer l'effet de style sur l'image avec un before et un after, qu'on intègre dans la div contenant l'image (div-img)
 
 .div-img
     position: relative
+    width: 46vw !important
+    height: 500px
 .div-img::before
     content: ""
     height: 85px
@@ -23,7 +26,7 @@
     display: block
     border-top: 7.5px solid $yellowish
     border-left: 7.5px solid $yellowish
-    left: 25px
+    left: 187px
     top: 25px
 .div-img::after
     content: ""
@@ -37,4 +40,4 @@
     bottom: 25px
 
 .sect1-txts
-    width: 47vw !important
+    width: 45vw !important

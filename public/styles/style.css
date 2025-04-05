@@ -10528,12 +10528,15 @@ html body {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/about-bg.jpg") !important;
 }
 .section-1 img {
-  width: 40vw !important;
+  object-fit: cover;
   border: rgba(54, 64, 71, 0.6941176471) 6px solid;
+  width: 46vw;
 }
 
 .div-img {
   position: relative;
+  width: 46vw !important;
+  height: 500px;
 }
 
 .div-img::before {
@@ -10544,7 +10547,7 @@ html body {
   display: block;
   border-top: 7.5px solid #cda45d;
   border-left: 7.5px solid #cda45d;
-  left: 25px;
+  left: 187px;
   top: 25px;
 }
 
@@ -10561,7 +10564,7 @@ html body {
 }
 
 .sect1-txts {
-  width: 47vw !important;
+  width: 45vw !important;
 }
 
 .section-navhead {
