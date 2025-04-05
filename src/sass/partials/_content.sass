@@ -1,0 +1,12 @@
+@use '_bases' as *
+@use '_variables' as *
+@use '_mixins' as *
+
+// Section 1
+
+.section-1
+    @include padding-sect
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/img/about-bg.jpg') !important
+    img
+        width: 40vw !important
+        border: $border-img 6px solid

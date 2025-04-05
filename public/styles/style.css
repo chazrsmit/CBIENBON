@@ -10466,9 +10466,20 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-p, h1, h4 {
+p, h1, h2, h4 {
   font-family: DM Sans;
-  color: #ffffff;
+  color: #ffffff !important;
+}
+
+p {
+  font-size: 22px !important;
+}
+
+h3 {
+  font-family: Playfair Display;
+  color: #ffffff !important;
+  font-size: 32px !important;
+  font-weight: bold !important;
 }
 
 nav a {
@@ -10498,6 +10509,27 @@ nav a {
   padding-top: 12px;
   padding-bottom: 12px;
   letter-spacing: 1px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+.section-1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/about-bg.jpg") !important;
+}
+.section-1 img {
+  width: 40vw !important;
+  border: rgba(54, 64, 71, 0.6941176471) 6px solid;
 }
 
 .section-navhead {
