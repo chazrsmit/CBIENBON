@@ -10,3 +10,18 @@
     img
         width: 40vw !important
         border: $border-img 6px solid
+
+// créer l'effet de style sur l'image avec un before et un after, qu'on intègre dans la div contenant l'image (div-img)
+
+.div-img
+    position: relative
+.div-img::before
+    content: ""
+    height: 85px
+    width: 85px
+    position: absolute
+    display: block
+    border-top: 7.5px solid $yellowish
+    border-left: 7.5px solid $yellowish
+    left: 25px
+    top: 25px

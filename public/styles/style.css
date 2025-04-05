@@ -10532,6 +10532,22 @@ html body {
   border: rgba(54, 64, 71, 0.6941176471) 6px solid;
 }
 
+.div-img {
+  position: relative;
+}
+
+.div-img::before {
+  content: "";
+  height: 85px;
+  width: 85px;
+  position: absolute;
+  display: block;
+  border-top: 7.5px solid #cda45d;
+  border-left: 7.5px solid #cda45d;
+  left: 25px;
+  top: 25px;
+}
+
 .section-navhead {
   background: linear-gradient(0deg, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.6)), url("../assets/img/hero-bg.jpg") !important;
   background-position: right;
