@@ -6,7 +6,7 @@
 
 .section-1
     @include padding-sect
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/img/about-bg.jpg') !important
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/img/about-bg.jpg') !important
     img
         object-fit: cover
         border: $border-img 6px solid
@@ -49,3 +49,24 @@
     // J'aurais du mettre une div autour de chaque p, et mettre le before sur la div (en position absolute) pour utiliser la propriété top /
     // car comme ça je ne peux pas modifier la position du checkmark par rapport au p.
             
+// Section 2
+
+.section-2
+    @include padding-sect
+    background-color: $bg-1
+
+.sect2-card
+    background-color : $bg-2
+    // height: 400px
+    padding-left: 40px
+    padding-right: 40px
+    padding-top: 60px
+    padding-bottom: 60px
+    h3
+        color : #e0e0e0 !important
+        font-size: 38px !important
+    p
+        &:first-child
+            color : $yellowish !important
+            font-size : 36px !important
+            font-weight: bold !important
