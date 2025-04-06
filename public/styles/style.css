@@ -10481,6 +10481,13 @@ p {
   color: #a5a5a5 !important;
 }
 
+h2 {
+  font-family: Playfair Display;
+  font-size: 50px !important;
+  color: #cda45d !important;
+  text-transform: capitalize;
+}
+
 h3 {
   font-family: Playfair Display;
   color: #ffffff !important;
@@ -10491,7 +10498,8 @@ h3 {
 h6 {
   color: #a5a5a5 !important;
   text-transform: uppercase;
-  font-size: 16px !important;
+  font-size: 20px !important;
+  letter-spacing: 2px !important;
 }
 
 nav a {
@@ -10622,7 +10630,7 @@ html body {
   background: linear-gradient(0deg, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.6)), url("../assets/img/hero-bg.jpg") !important;
   background-position: right;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed !important;
   background-repeat: no-repeat;
 }
 
