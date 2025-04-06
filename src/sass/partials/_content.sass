@@ -16,7 +16,6 @@
 
 .div-img
     position: relative
-    width: 45vw !important
     height: 500px
 .div-img::before
     content: ""
@@ -41,3 +40,12 @@
 
 .sect1-txts
     width: 45vw !important
+    p
+        &:nth-of-type(2), &:nth-of-type(3), &:nth-of-type(4)
+            &::before
+                @include checkmark
+                       
+    // Ajouter en before des icônes checkmark
+    // J'aurais du mettre une div autour de chaque p, et mettre le before sur la div (en position absolute) pour utiliser la propriété top /
+    // car comme ça je ne peux pas modifier la position du checkmark par rapport au p.
+            

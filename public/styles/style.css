@@ -10472,7 +10472,8 @@ p, h1, h2, h4 {
 }
 
 p {
-  font-size: 23px !important;
+  font-size: 24px !important;
+  line-height: 1.6 !important;
 }
 
 h3 {
@@ -10535,7 +10536,6 @@ html body {
 
 .div-img {
   position: relative;
-  width: 45vw !important;
   height: 500px;
 }
 
@@ -10565,6 +10565,21 @@ html body {
 
 .sect1-txts {
   width: 45vw !important;
+}
+.sect1-txts p:nth-of-type(2)::before, .sect1-txts p:nth-of-type(3)::before, .sect1-txts p:nth-of-type(4)::before {
+  font-family: "Font Awesome 6 Free";
+  font-size: 16px;
+  content: "\f00c";
+  font-weight: 900;
+  color: #cda45d;
+  border: solid 2.5px #cda45d;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 5px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: -15px;
 }
 
 .section-navhead {
