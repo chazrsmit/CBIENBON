@@ -55,6 +55,17 @@
     @include padding-sect
     background-color: $bg-1
 
+.sect2-title
+    position: relative
+    &::after
+        content: ""
+        width: 164px
+        border: 0.5px solid #e6e6e643
+        display: block
+        position: absolute
+        bottom: 19px !important
+        left: 105px
+
 .sect2-card
     background-color : $bg-2
     // height: 400px
