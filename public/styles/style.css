@@ -11058,7 +11058,6 @@ footer .fa-linkedin-in, footer .fa-instagram, footer .fa-skype {
 .links li {
   color: #ffffff;
   font-size: 20px;
-  cursor: pointer;
   text-transform: capitalize;
 }
 .links li::before {
@@ -11071,6 +11070,11 @@ footer .fa-linkedin-in, footer .fa-instagram, footer .fa-skype {
   list-style: none;
 }
 .links ul p {
+  font-family: Playfair Display;
+  font-size: 26px !important;
+}
+
+#p-news {
   font-family: Playfair Display;
   font-size: 26px !important;
 }
