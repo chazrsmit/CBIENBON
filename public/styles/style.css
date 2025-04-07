@@ -10817,10 +10817,15 @@ html body {
   width: 10px !important;
   height: 10px !important;
   border-radius: 50% !important;
+  background-color: #cda45d !important;
+}
+.carousel-indicators [data-bs-target]:not(:active), .carousel-indicators [data-bs-target]:not(:focus) {
   background-color: #ffffff !important;
+  opacity: 0.5 !important;
 }
 .carousel-indicators [data-bs-target]:active, .carousel-indicators [data-bs-target]:focus {
   background-color: #cda45d !important;
+  opacity: 1 !important;
 }
 
 .section-5 {
@@ -10883,6 +10888,43 @@ textarea[placeholder] {
   color: #c4baa4;
   font-size: 21px;
   outline: none;
+}
+
+.section-6 {
+  background-color: #0d0b09;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
+.section-6 img {
+  border: #484642 3px solid;
+}
+
+.sect6-title {
+  position: relative;
+}
+.sect6-title::after {
+  content: "";
+  width: 164px;
+  border: 0.2px solid rgba(230, 230, 230, 0.262745098);
+  display: block;
+  position: absolute;
+  bottom: 19px !important;
+  left: 120px !important;
+  bottom: 12px !important;
+}
+
+.rangeeimg1 {
+  border-top: #484642 3px solid;
+  border-left: #484642 3px solid;
+  border-right: #484642 3px solid;
+}
+
+.rangeeimg2 {
+  border-bottom: #484642 3px solid;
+  border-left: #484642 3px solid;
+  border-right: #484642 3px solid;
 }
 
 .section-navhead {

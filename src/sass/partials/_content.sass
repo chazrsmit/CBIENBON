@@ -185,9 +185,13 @@
     width: 10px !important
     height: 10px !important
     border-radius: 50% !important
-    background-color: $blanc !important
+    background-color: $yellowish !important
+    &:not(:active), &:not(:focus)
+        background-color: $blanc !important
+        opacity: 0.5 !important
     &:active, &:focus
         background-color: $yellowish !important
+        opacity: 1 !important
 
 // Section 5
 
@@ -236,3 +240,26 @@ textarea[placeholder]
     outline: none
 
             
+// Section 6
+
+.section-6
+    background-color: $bg-1
+    @include padding-sect
+    img
+        border: $border-img2 3px solid
+
+.sect6-title
+    position: relative
+    &::after
+        @include line
+        left: 120px !important
+        bottom: 12px !important
+
+.rangeeimg1
+    border-top: $border-img2 3px solid
+    border-left: $border-img2 3px solid
+    border-right: $border-img2 3px solid
+.rangeeimg2
+    border-bottom: $border-img2 3px solid
+    border-left: $border-img2 3px solid
+    border-right: $border-img2 3px solid
