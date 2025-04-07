@@ -10667,13 +10667,18 @@ html body {
 .plat img {
   object-fit: contain;
   border: #484642 8px solid;
-  width: 110px;
-  height: 110px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
 }
 
 .plat-textes {
   width: 460px;
+}
+
+.plat-desc {
+  color: #a5a5a5 !important;
+  font-style: italic !important;
 }
 
 .plat-prix {
@@ -10682,11 +10687,20 @@ html body {
 .plat-prix::before {
   content: "";
   display: block;
-  width: 270px;
+  width: 250px;
   border-top: 3.5px dotted #a5a5a5;
   position: absolute;
-  top: 18px;
+  top: 19px;
   right: 80px;
+}
+.plat-prix p {
+  color: #cda45d !important;
+  font-weight: bold !important;
+}
+
+.plat-titre p {
+  font-weight: bold;
+  font-size: 26px !important;
 }
 
 .section-navhead {

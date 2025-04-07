@@ -94,20 +94,32 @@
     img
         object-fit: contain
         border: $border-img2 8px solid
-        width: 110px
-        height: 110px
+        width: 100px
+        height: 100px
         border-radius: 50%
 
 .plat-textes
     width: 460px
+
+.plat-desc
+    color : $lightgrey !important
+    font-style: italic !important
 
 .plat-prix
     position: relative
     &::before
         content: ""
         display: block
-        width: 270px
+        width: 250px
         border-top: 3.5px dotted $lightgrey
         position: absolute
-        top: 18px
+        top: 19px
         right: 80px
+    p
+        color : $yellowish !important
+        font-weight: bold !important
+
+.plat-titre
+    p
+        font-weight: bold
+        font-size: 26px !important
