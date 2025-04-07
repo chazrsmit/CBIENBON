@@ -10964,6 +10964,11 @@ textarea[placeholder] {
   padding-left: 60px !important;
   padding-right: 60px !important;
 }
+.section-8 i {
+  color: #ffffff;
+  font-size: 24px;
+  background-color: #cda45d;
+}
 
 .sect8-title {
   position: relative;
@@ -10977,6 +10982,42 @@ textarea[placeholder] {
   bottom: 19px !important;
   left: 124px !important;
   bottom: 12px !important;
+}
+
+.fa-location-dot {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 50%;
+}
+
+.fa-clock {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 50%;
+}
+
+.fa-envelope {
+  padding-left: 15.5px;
+  padding-right: 15.5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 50%;
+}
+
+.fa-mobile-button {
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 60%;
+}
+
+.sect8-input-width {
+  width: 440px !important;
 }
 
 .section-navhead {
