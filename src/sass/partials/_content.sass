@@ -89,12 +89,24 @@
         @include line
         left: 80px
 
+.plat
+    width: 660px
+    img
+        object-fit: contain
+        border: $border-img2 8px solid
+        width: 110px
+        height: 110px
+        border-radius: 50%
+
+.plat-textes
+    width: 460px
+
 .plat-prix
     position: relative
     &::before
         content: ""
         display: block
-        width: 300px
+        width: 270px
         border-top: 3.5px dotted $lightgrey
         position: absolute
         top: 18px
