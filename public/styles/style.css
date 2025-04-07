@@ -11024,6 +11024,37 @@ textarea[placeholder] {
   width: 440px !important;
 }
 
+footer {
+  background-color: #0d0b09;
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+  border-top: rgba(109, 101, 83, 0.3960784314) 1px solid;
+}
+footer p:first-of-type {
+  font-size: 32px !important;
+}
+footer p:nth-of-type(2), footer p:nth-of-type(3) {
+  font-family: Playfair Display !important;
+  font-size: 21px !important;
+}
+footer i {
+  color: #ffffff;
+  font-size: 22px;
+  background-color: #27251f;
+  padding: 15px;
+  border-radius: 50%;
+}
+footer .fa-facebook-f {
+  padding-left: 19px;
+  padding-right: 19px;
+}
+footer .fa-linkedin-in, footer .fa-instagram, footer .fa-skype {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
 .section-navhead {
   background: linear-gradient(0deg, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.6)), url("../assets/img/hero-bg.jpg") !important;
   background-position: right;

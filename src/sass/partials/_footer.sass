@@ -1,0 +1,29 @@
+@use '_bases' as *
+@use '_variables' as *
+@use '_mixins' as *
+
+footer
+    background-color: $bg-1
+    @include padding-foot
+    border-top: $contour 1px solid
+    p
+        &:first-of-type
+            font-size: 32px !important
+        &:nth-of-type(2), &:nth-of-type(3)
+            font-family: Playfair Display !important
+            font-size: 21px !important
+    i
+        color: $blanc
+        font-size: 22px
+        background-color: $bg-icons
+        padding: 15px
+        border-radius: 50%
+    .fa-facebook-f
+        padding-left: 19px
+        padding-right: 19px
+    
+    .fa-linkedin-in, .fa-instagram, .fa-skype
+        padding-left: 18px
+        padding-right: 18px
+
+
