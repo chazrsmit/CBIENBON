@@ -10539,6 +10539,25 @@ nav a {
   letter-spacing: 1px;
 }
 
+.btn2 {
+  border-radius: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 3px #cda45d solid;
+  font-family: DM Sans;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  letter-spacing: 1px;
+  background-color: #cda45d;
+  text-transform: capitalize;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -10830,14 +10849,14 @@ form textarea {
   background-color: #0d0b09;
   border: #6d6553 solid 1.5px;
   resize: none;
-  padding-left: 12px;
-  padding-top: 5px;
+  padding-left: 18px;
+  padding-top: 15px;
 }
 form input {
   background-color: #0d0b09;
   border: #6d6553 solid 1.5px;
-  height: 55px;
-  padding-left: 12px;
+  height: 58px;
+  padding-left: 18px;
 }
 
 .div-input {
