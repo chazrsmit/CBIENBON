@@ -10515,6 +10515,13 @@ nav a {
   letter-spacing: 2px;
 }
 
+.a-y {
+  transition: 0.2s all;
+}
+.a-y:hover {
+  color: #cda45d !important;
+}
+
 .btn1 {
   border-radius: 30px;
   background-color: transparent;
@@ -10667,8 +10674,8 @@ html body {
 .plat img {
   object-fit: contain;
   border: #484642 8px solid;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
 }
 
@@ -10703,6 +10710,13 @@ html body {
   font-size: 26px !important;
 }
 
+.sect3-liens a {
+  font-family: Playfair Display;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 22px !important;
+}
+
 .section-navhead {
   background: linear-gradient(0deg, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.6)), url("../assets/img/hero-bg.jpg") !important;
   background-position: right;
@@ -10723,13 +10737,6 @@ nav {
 .collapse {
   gap: 40px;
   justify-content: center;
-}
-
-.nav-link {
-  transition: 0.2s all;
-}
-.nav-link:hover {
-  color: #cda45d !important;
 }
 
 header {

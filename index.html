@@ -25,13 +25,13 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <!-- Suppression de la div parent avec la classe "navbar-nav" car elle empêchait le hamb menu de se placer à droit + collapse bizarre -->
         <!-- Maintenant, il faut centrer et mettre un gap entre les élément de la nav bar -->
-            <div><a class="nav-link active" aria-current="page" href="#">Home</a></div>
-            <div><a class="nav-link" href="#">About</a></div>
-            <div><a class="nav-link" href="#">Menu</a></div>
-            <div><a class="nav-link" href="#">Events</a></div>
-            <div><a class="nav-link" href="#">Gallery</a></div>
-            <div><a class="nav-link" href="#">Chefs</a></div>
-            <div><a class="nav-link" href="#">Contact</a></div>
+            <div><a class="nav-link a-y active" aria-current="page" href="#">Home</a></div>
+            <div><a class="nav-link a-y" href="#">About</a></div>
+            <div><a class="nav-link a-y" href="#">Menu</a></div>
+            <div><a class="nav-link a-y" href="#">Events</a></div>
+            <div><a class="nav-link a-y" href="#">Gallery</a></div>
+            <div><a class="nav-link a-y" href="#">Chefs</a></div>
+            <div><a class="nav-link a-y" href="#">Contact</a></div>
         </div>
         <button class="btn1">Book a table</button>
     </div>
@@ -122,42 +122,147 @@
     </div>
     <h2>Check our tasty menu</h2>
 
-    <div class="sect3-liens d-flex justify-content-center gap-4 mt-3">
-        <a href="">All</a>
-        <a href="">Starters</a>
-        <a href="">Salad</a>
-        <a href="">Specialty</a>
+    <div class="sect3-liens d-flex justify-content-center gap-4 mt-5">
+        <a class="a-y" href="">All</a>
+        <a class="a-y" href="">Starters</a>
+        <a class="a-y" href="">Salad</a>
+        <a class="a-y" href="">Specialty</a>
     </div>
 
     <div class="sect3-listing d-flex flex-wrap justify-content-between mt-5">
 
-        <div class="plat d-flex justify-content-between" id="lobster-bisque">
+        <div class="plat d-flex justify-content-between my-5" id="lobster-bisque">
             <div class="plat-img d-flex justify-content-start">
                 <img src="./public/assets/img/menu/lobster-bisque.jpg" alt="">
             </div>
             <div class="plat-textes">
                 <div class="plat-titre">
-                    <p class="m-0">Lobster bisque</p>
+                    <p class="m-0">Lobster Bisque</p>
                 </div>
-                <p class="plat-desc m-0">blablabla blablabla blablabla</p>
+                <p class="plat-desc m-0">Lorem, direm, filandro, tranara</p>
             </div>
             <div class="plat-prix">
                 <p>$5.95</p>
             </div>
         </div>
 
-        <div class="plat d-flex justify-content-between" id="lobster-bisque">
+        <div class="plat d-flex justify-content-between my-5" id="bread-barrel">
             <div class="plat-img d-flex justify-content-start">
-                <img src="./public/assets/img/menu/lobster-bisque.jpg" alt="">
+                <img src="./public/assets/img/menu/bread-barrel.jpg" alt="">
             </div>
             <div class="plat-textes">
                 <div class="plat-titre">
-                    <p class="m-0">Lobster bisque</p>
+                    <p class="m-0">Bread Barrel</p>
                 </div>
-                <p class="m-0">blablabla blablabla blablabla</p>
+                <p class="plat-desc m-0">Lorem, direm, filandro, tranara</p>
             </div>
             <div class="plat-prix">
-                <p>$5.95</p>
+                <p>$6.95</p>
+            </div>
+        </div>
+
+        <div class="plat d-flex justify-content-between my-5" id="crab-cake">
+            <div class="plat-img d-flex justify-content-start">
+                <img src="./public/assets/img/menu/cake.jpg" alt="">
+            </div>
+            <div class="plat-textes">
+                <div class="plat-titre">
+                    <p class="m-0">Crab Cake</p>
+                </div>
+                <p class="plat-desc m-0">Lorem, direm, filandro, tranara</p>
+            </div>
+            <div class="plat-prix">
+                <p>$7.95</p>
+            </div>
+        </div>
+
+        <div class="plat d-flex justify-content-between my-5" id="ceasar">
+            <div class="plat-img d-flex justify-content-start">
+                <img src="./public/assets/img/menu/caesar.jpg" alt="">
+            </div>
+            <div class="plat-textes">
+                <div class="plat-titre">
+                    <p class="m-0">Ceasar Selections</p>
+                </div>
+                <p class="plat-desc m-0">Lorem, direm, filandro, tranara</p>
+            </div>
+            <div class="plat-prix">
+                <p>$8.95</p>
+            </div>
+        </div>
+
+        <div class="plat d-flex justify-content-between my-5" id="tuscan">
+            <div class="plat-img d-flex justify-content-start">
+                <img src="./public/assets/img/menu/tuscan-grilled.jpg" alt="">
+            </div>
+            <div class="plat-textes">
+                <div class="plat-titre">
+                    <p class="m-0">Tuscan Grilled</p>
+                </div>
+                <p class="plat-desc m-0">Lorem, direm, filandro, tranara</p>
+            </div>
+            <div class="plat-prix">
+                <p>$7.95</p>
+            </div>
+        </div>
+
+        <div class="plat d-flex justify-content-between my-5" id="mozza-sticks">
+            <div class="plat-img d-flex justify-content-start">
+                <img src="./public/assets/img/menu/mozzarella.jpg" alt="">
+            </div>
+            <div class="plat-textes">
+                <div class="plat-titre">
+                    <p class="m-0">Mozarella Sticks</p>
+                </div>
+                <p class="plat-desc m-0">Lorem, direm, filandro, tranara</p>
+            </div>
+            <div class="plat-prix">
+                <p>$4.95</p>
+            </div>
+        </div>
+
+        <div class="plat d-flex justify-content-between my-5" id="greek-salad">
+            <div class="plat-img d-flex justify-content-start">
+                <img src="./public/assets/img/menu/greek-salad.jpg" alt="">
+            </div>
+            <div class="plat-textes">
+                <div class="plat-titre">
+                    <p class="m-0">Greek Salad</p>
+                </div>
+                <p class="plat-desc m-0">Lorem, direm, filandro, tranara</p>
+            </div>
+            <div class="plat-prix">
+                <p>$9.95</p>
+            </div>
+        </div>
+
+        <div class="plat d-flex justify-content-between my-5" id="spinach-salad">
+            <div class="plat-img d-flex justify-content-start">
+                <img src="./public/assets/img/menu/spinach-salad.jpg" alt="">
+            </div>
+            <div class="plat-textes">
+                <div class="plat-titre">
+                    <p class="m-0">Spinach Salad</p>
+                </div>
+                <p class="plat-desc m-0">Lorem, direm, filandro, tranara</p>
+            </div>
+            <div class="plat-prix">
+                <p>$9.95</p>
+            </div>
+        </div>
+
+        <div class="plat d-flex justify-content-between mt-5" id="lobster-rolls">
+            <div class="plat-img d-flex justify-content-start">
+                <img src="./public/assets/img/menu/lobster-roll.jpg" alt="">
+            </div>
+            <div class="plat-textes">
+                <div class="plat-titre">
+                    <p class="m-0">Lobster Rolls</p>
+                </div>
+                <p class="plat-desc m-0">Lorem, direm, filandro, tranara</p>
+            </div>
+            <div class="plat-prix">
+                <p>$12.95</p>
             </div>
         </div>
 
