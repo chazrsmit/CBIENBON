@@ -10717,6 +10717,27 @@ html body {
   font-size: 22px !important;
 }
 
+.section-4 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/img/events-bg.jpg");
+}
+
+.sect4-title {
+  position: relative;
+}
+.sect4-title::after {
+  content: "";
+  width: 164px;
+  border: 0.2px solid rgba(230, 230, 230, 0.262745098);
+  display: block;
+  position: absolute;
+  bottom: 19px !important;
+  left: 100px;
+}
+
 .section-navhead {
   background: linear-gradient(0deg, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.6)), url("../assets/img/hero-bg.jpg") !important;
   background-position: right;

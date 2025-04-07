@@ -130,3 +130,15 @@
         text-decoration: none
         color : $blanc
         font-size: 22px !important
+
+// Section 4
+
+.section-4
+    @include padding-sect
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/img/events-bg.jpg')
+
+.sect4-title
+    position: relative
+    &::after
+        @include line
+        left: 100px
