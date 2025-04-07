@@ -10945,8 +10945,16 @@ textarea[placeholder] {
   display: block;
   position: absolute;
   bottom: 19px !important;
-  left: 105px !important;
+  left: 90px !important;
   bottom: 20px !important;
+}
+
+.rangee-chefs div {
+  width: 440px;
+  height: 440px;
+}
+.rangee-chefs div img {
+  width: 100%;
 }
 
 .section-navhead {
