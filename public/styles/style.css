@@ -10825,6 +10825,10 @@ html body {
   left: 170px;
 }
 
+form textarea {
+  width: 100% !important;
+}
+
 .section-navhead {
   background: linear-gradient(0deg, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.6)), url("../assets/img/hero-bg.jpg") !important;
   background-position: right;
