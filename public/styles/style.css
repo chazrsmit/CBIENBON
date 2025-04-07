@@ -10769,15 +10769,41 @@ html body {
 
 .carousel-indicators {
   top: 100% !important;
+  background-color: #cda45d !important;
+}
+.carousel-indicators:active, .carousel-indicators:focus {
+  background-color: #cda45d !important;
 }
 
 .carousel-indicators [data-bs-target] {
   width: 10px !important;
   height: 10px !important;
   border-radius: 50% !important;
+  background-color: #ffffff !important;
 }
 .carousel-indicators [data-bs-target]:active, .carousel-indicators [data-bs-target]:focus {
   background-color: #cda45d !important;
+}
+
+.section-5 {
+  background-color: #0d0b09;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
+
+.sect5-title {
+  position: relative;
+}
+.sect5-title::after {
+  content: "";
+  width: 164px;
+  border: 0.2px solid rgba(230, 230, 230, 0.262745098);
+  display: block;
+  position: absolute;
+  bottom: 19px !important;
+  left: 170px;
 }
 
 .section-navhead {
