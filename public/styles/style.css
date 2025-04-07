@@ -10927,6 +10927,28 @@ textarea[placeholder] {
   border-right: #484642 3px solid;
 }
 
+.section-7 {
+  background-color: #0d0b09;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
+
+.sect7-title {
+  position: relative;
+}
+.sect7-title::after {
+  content: "";
+  width: 164px;
+  border: 0.2px solid rgba(230, 230, 230, 0.262745098);
+  display: block;
+  position: absolute;
+  bottom: 19px !important;
+  left: 105px !important;
+  bottom: 20px !important;
+}
+
 .section-navhead {
   background: linear-gradient(0deg, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.6)), url("../assets/img/hero-bg.jpg") !important;
   background-position: right;
