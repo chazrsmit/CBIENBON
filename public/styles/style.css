@@ -11055,6 +11055,26 @@ footer .fa-linkedin-in, footer .fa-instagram, footer .fa-skype {
   padding-right: 18px;
 }
 
+.links li {
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.links li::before {
+  content: "›";
+  color: #cda45d;
+  margin-right: 8px;
+  font-size: 32px;
+}
+.links ul {
+  list-style: none;
+}
+.links ul p {
+  font-family: Playfair Display;
+  font-size: 26px !important;
+}
+
 .section-navhead {
   background: linear-gradient(0deg, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.6)), url("../assets/img/hero-bg.jpg") !important;
   background-position: right;
