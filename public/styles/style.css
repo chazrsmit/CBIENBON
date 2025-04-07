@@ -10738,6 +10738,31 @@ html body {
   left: 100px;
 }
 
+.carousel-caption {
+  right: 0 !important;
+  bottom: 0px !important;
+  top: 5px !important;
+  left: 50% !important;
+  text-align: start !important;
+  padding-left: 30px !important;
+}
+.carousel-caption h2 {
+  font-size: 36px !important;
+}
+.carousel-caption p:first-of-type {
+  font-size: 38px !important;
+  font-weight: bold;
+  position: relative;
+}
+.carousel-caption p:first-of-type::after {
+  content: "";
+  display: block;
+  border-top: #cda45d 3.5px solid;
+  width: 64px;
+  position: absolute;
+  bottom: 4px !important;
+}
+
 .section-navhead {
   background: linear-gradient(0deg, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.6)), url("../assets/img/hero-bg.jpg") !important;
   background-position: right;
