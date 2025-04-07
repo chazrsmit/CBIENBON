@@ -58,12 +58,7 @@
 .sect2-title
     position: relative
     &::after
-        content: ""
-        width: 164px
-        border: 0.5px solid #e6e6e643
-        display: block
-        position: absolute
-        bottom: 19px !important
+        @include line
         left: 105px
 
 .sect2-card
@@ -81,3 +76,26 @@
             color : $yellowish !important
             font-size : 36px !important
             font-weight: bold !important
+
+// Section 3
+
+.section-3
+    @include padding-sect
+    background-color: $bg-2
+
+.sect3-title
+    position: relative
+    &::after
+        @include line
+        left: 80px
+
+.plat-prix
+    position: relative
+    &::before
+        content: ""
+        display: block
+        width: 300px
+        border-top: 3.5px dotted $lightgrey
+        position: absolute
+        top: 18px
+        right: 80px
