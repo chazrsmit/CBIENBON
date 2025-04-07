@@ -10827,6 +10827,43 @@ html body {
 
 form textarea {
   width: 100% !important;
+  background-color: #0d0b09;
+  border: #6d6553 solid 1.5px;
+  resize: none;
+  padding-left: 12px;
+  padding-top: 5px;
+}
+form input {
+  background-color: #0d0b09;
+  border: #6d6553 solid 1.5px;
+  height: 55px;
+  padding-left: 12px;
+}
+
+.div-input {
+  width: 32%;
+}
+
+input::placeholder {
+  color: #c4baa4;
+  font-size: 21px;
+}
+
+input[placeholder] {
+  color: #c4baa4;
+  font-size: 21px;
+  outline: none !important;
+}
+
+textarea::placeholder {
+  color: #c4baa4;
+  font-size: 21px;
+}
+
+textarea[placeholder] {
+  color: #c4baa4;
+  font-size: 21px;
+  outline: none;
 }
 
 .section-navhead {

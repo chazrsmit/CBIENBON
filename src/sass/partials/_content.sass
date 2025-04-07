@@ -202,9 +202,37 @@
         left: 170px
 
 form
-    input
-        // width: 30% !important
     textarea
         width: 100% !important
+        background-color: $bg-1
+        border: $border-form solid 1.5px
+        resize: none
+        padding-left: 12px
+        padding-top: 5px
+    input
+        background-color: $bg-1
+        border: $border-form solid 1.5px
+        height: 55px
+        padding-left: 12px
+.div-input
+    width: 32%
+
+input::placeholder
+    color : $form-txt
+    font-size: 21px
+    
+input[placeholder]
+    color : $form-txt
+    font-size: 21px
+    outline: none !important
+
+textarea::placeholder
+    color : $form-txt
+    font-size: 21px
+
+textarea[placeholder]
+    color : $form-txt
+    font-size: 21px
+    outline: none
 
             
