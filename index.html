@@ -154,24 +154,24 @@
 
     <div class="sect3-liens d-flex justify-content-center gap-4 mt-5">
 
-        <input name="filter" class="input" type="radio" id="all" value="all">  
+        <input name="filter" class="input" type="radio" id="all" value="all" checked>  
         <label for="all">
             <a class="a-y">All</a>
         </label>
 
         <input name="filter" class="input" type="radio" id="starters" value="starters"> 
         <label for="starters">
-            <a class="a-y" href="">Starters</a>
+            <a class="a-y">Starters</a>
         </label>
 
         <input name="filter" class="input" type="radio" id="salads" value="salads"> 
         <label for="salads">
-            <a class="a-y" href="">Salads</a>
+            <a class="a-y">Salads</a>
         </label>
 
         <input name="filter" class="input" type="radio" id="specialty" value="specialty"> 
         <label for="specialty">
-            <a class="a-y" href="">Specialty</a>
+            <a class="a-y">Specialty</a>
         </label>
     </div>
     
@@ -179,7 +179,7 @@
     <div class="d-flex justify-content-center">
         <div class="sect3-listing d-flex flex-wrap mt-5">
     
-            <div class="plat d-flex justify-content-between my-5" id="lobster-bisque">
+            <div class="plat d-flex justify-content-between my-5" id="lobster-bisque" data-category="starters">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/lobster-bisque.jpg" alt="">
                 </div>
@@ -194,7 +194,7 @@
                 </div>
             </div>
     
-            <div class="plat d-flex justify-content-between my-5" id="bread-barrel">
+            <div class="plat d-flex justify-content-between my-5" id="bread-barrel" data-category="specialty">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/bread-barrel.jpg" alt="">
                 </div>
@@ -209,7 +209,7 @@
                 </div>
             </div>
 
-            <div class="plat d-flex justify-content-between my-5" id="crab-cake">
+            <div class="plat d-flex justify-content-between my-5" id="crab-cake" data-category="starters">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/cake.jpg" alt="">
                 </div>
@@ -224,7 +224,7 @@
                 </div>
             </div>
 
-            <div class="plat d-flex justify-content-between my-5" id="ceasar">
+            <div class="plat d-flex justify-content-between my-5" id="ceasar" data-category="salads">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/caesar.jpg" alt="">
                 </div>
@@ -239,7 +239,7 @@
                 </div>
             </div>
 
-            <div class="plat d-flex justify-content-between my-5" id="tuscan">
+            <div class="plat d-flex justify-content-between my-5" id="tuscan" data-category="specialty">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/tuscan-grilled.jpg" alt="">
                 </div>
@@ -254,7 +254,7 @@
                 </div>
             </div>
 
-            <div class="plat d-flex justify-content-between my-5" id="mozza-sticks">
+            <div class="plat d-flex justify-content-between my-5" id="mozza-sticks" data-category="starters">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/mozzarella.jpg" alt="">
                 </div>
@@ -269,7 +269,7 @@
                 </div>
             </div>
 
-            <div class="plat d-flex justify-content-between my-5" id="greek-salad">
+            <div class="plat d-flex justify-content-between my-5" id="greek-salad" data-category="salads">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/greek-salad.jpg" alt="">
                 </div>
@@ -284,7 +284,7 @@
                 </div>
             </div>
 
-            <div class="plat d-flex justify-content-between my-5" id="spinach-salad">
+            <div class="plat d-flex justify-content-between my-5" id="spinach-salad" data-category="salads">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/spinach-salad.jpg" alt="">
                 </div>
@@ -299,7 +299,7 @@
                 </div>
             </div>
 
-            <div class="plat d-flex justify-content-between mt-5" id="lobster-rolls">
+            <div class="plat d-flex justify-content-between mt-5" id="lobster-rolls" data-category="specialty">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/lobster-roll.jpg" alt="">
                 </div>

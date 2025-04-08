@@ -144,6 +144,39 @@
         color : $blanc
         font-size: 22px !important
 
+// #starters:checked ~ .sect3-listing .plat[data-category="starters"],
+// #salads:checked ~ .sect3-listing .plat[data-category="salads"],
+// #specialty:checked ~ .sect3-listing .plat[data-category="specialty"]
+//     display: block
+
+[value="all"]:checked ~ .plat [data-category]
+    display: block
+
+[value="green-radio"]:checked ~ .sect3-listing .plat:not([data-category="green-radio"]),
+[value="blue-radio"]:checked ~ .sect3-listing .plat:not([data-category="blue-radio"]),
+[value="red-radio"]:checked ~ .sect3-listing .plat:not([data-category="red-radio"])
+    display:none
+    animation: fadeOut .25s
+
+
+[value="green-radio"]:not(:checked) ~ div.cards .card[data-category="green-radio"],
+[value="blue-radio"]:not(:checked) ~ div.cards div.card[data-category="blue-radio"],
+[value="red-radio"]:not(:checked) ~ div.cards div.card[data-category="red-radio"]
+    animation: fadeIn .25s
+
+@keyframes fadeIn
+    0% 
+        opacity: 0
+    100%
+        opacity: 1
+
+@keyframes fadeOut
+    0%
+        opacity: 1
+    100%
+        opacity: 0
+
+
 // Section 4
 
 .section-4

@@ -10777,6 +10777,37 @@ html body {
   font-size: 22px !important;
 }
 
+[value=all]:checked ~ .plat [data-category] {
+  display: block;
+}
+
+[value=green-radio]:checked ~ .sect3-listing .plat:not([data-category=green-radio]),
+[value=blue-radio]:checked ~ .sect3-listing .plat:not([data-category=blue-radio]),
+[value=red-radio]:checked ~ .sect3-listing .plat:not([data-category=red-radio]) {
+  animation: fadeOut 0.25s;
+}
+[value=green-radio]:not(:checked) ~ div.cards .card[data-category=green-radio],
+[value=blue-radio]:not(:checked) ~ div.cards div.card[data-category=blue-radio],
+[value=red-radio]:not(:checked) ~ div.cards div.card[data-category=red-radio] {
+  animation: fadeIn 0.25s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .section-4 {
   padding-top: 100px;
   padding-bottom: 100px;
