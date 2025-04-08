@@ -149,32 +149,87 @@
 // #specialty:checked ~ .sect3-listing .plat[data-category="specialty"]
 //     display: block
 
-[value="all"]:checked ~ .plat [data-category]
-    display: block
+// [value="all"]:checked ~ .plat [data-category]
+//     display: block
 
-[value="green-radio"]:checked ~ .sect3-listing .plat:not([data-category="green-radio"]),
-[value="blue-radio"]:checked ~ .sect3-listing .plat:not([data-category="blue-radio"]),
-[value="red-radio"]:checked ~ .sect3-listing .plat:not([data-category="red-radio"])
-    display:none
-    animation: fadeOut .25s
+// [value="starters"]:checked ~ .sect3-listing .plat:not([data-category="starters"]),
+// [value="salads"]:checked ~ .sect3-listing .plat:not([data-category="salads"]),
+// [value="specialty"]:checked ~ .sect3-listing .plat:not([data-category="specialty"])
+//     display:none
+//     animation: fadeOut .25s
 
 
-[value="green-radio"]:not(:checked) ~ div.cards .card[data-category="green-radio"],
-[value="blue-radio"]:not(:checked) ~ div.cards div.card[data-category="blue-radio"],
-[value="red-radio"]:not(:checked) ~ div.cards div.card[data-category="red-radio"]
-    animation: fadeIn .25s
+// [value="starters"]:not(:checked) ~ .sect3-listing .plat[data-category="starters"],
+// [value="salads"]:not(:checked) ~ .sect3-listing .plat[data-category="salads"],
+// [value="specialty"]:not(:checked) ~ .sect3-listing .plat[data-category="specialty"]
+//     animation: fadeIn .25s
 
-@keyframes fadeIn
-    0% 
-        opacity: 0
-    100%
-        opacity: 1
+// @keyframes fadeIn
+//     0% 
+//         opacity: 0
+//     100%
+//         opacity: 1
+
+// @keyframes fadeOut
+//     0%
+//         opacity: 1
+//     100%
+//         opacity: 0
+
+
+/* Always show plats by default */
+.plat 
+  display: flex
+  opacity: 1
+  transition: opacity 0.5s ease
+
+
+/* Hide all plats if a filter is applied */
+// input[name="filter"]:checked ~ .plats .plat
+//   display: none
+
+
+/* Show plats that match the selected filter */
+#all:checked ~ .sect3-listing .plat[data-category],
+#salads:checked ~ .sect3-listing .plat[data-category="salads"],
+#specialty:checked ~ .sect3-listing .plat[data-category="specialty"],
+#starters:checked ~ .sect3-listing .plat[data-category="starters"]
+  display: flex
+  animation: fadeIn 0.5s forwards
+
+#salads:checked ~ .sect3-listing .plat:not([data-category="salads"])
+  opacity: 0
+  visibility: hidden
+  position: absolute
+  animation: fadeOut 0.5s forwards
+
+#specialty:checked ~ .sect3-listing .plat:not([data-category="specialty"])
+    opacity: 0
+    visibility: hidden
+    position: absolute
+    animation: fadeOut 0.5s forwards
+
+#starters:checked ~ .sect3-listing .plat:not([data-category="starters"])
+    opacity: 0
+    visibility: hidden
+    position: absolute
+    animation: fadeOut 0.5s forwards
+    
+/* Animation */
+@keyframes fadeIn 
+  from 
+    opacity: 0
+  to
+    opacity: 1
 
 @keyframes fadeOut
     0%
         opacity: 1
     100%
         opacity: 0
+
+
+
 
 
 // Section 4

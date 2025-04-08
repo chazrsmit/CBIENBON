@@ -10777,26 +10777,50 @@ html body {
   font-size: 22px !important;
 }
 
-[value=all]:checked ~ .plat [data-category] {
-  display: block;
+/* Always show plats by default */
+.plat {
+  display: flex;
+  opacity: 1;
+  transition: opacity 0.5s ease;
 }
 
-[value=green-radio]:checked ~ .sect3-listing .plat:not([data-category=green-radio]),
-[value=blue-radio]:checked ~ .sect3-listing .plat:not([data-category=blue-radio]),
-[value=red-radio]:checked ~ .sect3-listing .plat:not([data-category=red-radio]) {
-  animation: fadeOut 0.25s;
-}
-[value=green-radio]:not(:checked) ~ div.cards .card[data-category=green-radio],
-[value=blue-radio]:not(:checked) ~ div.cards div.card[data-category=blue-radio],
-[value=red-radio]:not(:checked) ~ div.cards div.card[data-category=red-radio] {
-  animation: fadeIn 0.25s;
+/* Hide all plats if a filter is applied */
+/* Show plats that match the selected filter */
+#all:checked ~ .sect3-listing .plat[data-category],
+#salads:checked ~ .sect3-listing .plat[data-category=salads],
+#specialty:checked ~ .sect3-listing .plat[data-category=specialty],
+#starters:checked ~ .sect3-listing .plat[data-category=starters] {
+  display: flex;
+  animation: fadeIn 0.5s forwards;
 }
 
+#salads:checked ~ .sect3-listing .plat:not([data-category=salads]) {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  animation: fadeOut 0.5s forwards;
+}
+
+#specialty:checked ~ .sect3-listing .plat:not([data-category=specialty]) {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  animation: fadeOut 0.5s forwards;
+}
+
+#starters:checked ~ .sect3-listing .plat:not([data-category=starters]) {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  animation: fadeOut 0.5s forwards;
+}
+
+/* Animation */
 @keyframes fadeIn {
-  0% {
+  from {
     opacity: 0;
   }
-  100% {
+  to {
     opacity: 1;
   }
 }
