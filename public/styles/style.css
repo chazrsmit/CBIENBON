@@ -10523,37 +10523,39 @@ nav a {
 }
 
 .btn1 {
-  border-radius: 30px;
-  background-color: transparent;
-  cursor: pointer;
-  border: 3px #cda45d solid;
-  font-family: DM Sans;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: bold;
-  color: #ffffff;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  letter-spacing: 1px;
+  border-radius: 30px !important;
+  background-color: transparent !important;
+  cursor: pointer !important;
+  border: 3px #cda45d solid !important;
+  font-family: DM Sans !important;
+  text-transform: uppercase !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  color: #ffffff !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  letter-spacing: 1px !important;
+  width: 220px !important;
 }
 
 .btn2 {
-  border-radius: 30px;
-  background-color: transparent;
-  cursor: pointer;
-  border: 3px #cda45d solid;
-  font-family: DM Sans;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: bold;
-  color: #ffffff;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  letter-spacing: 1px;
+  border-radius: 30px !important;
+  background-color: transparent !important;
+  cursor: pointer !important;
+  border: 3px #cda45d solid !important;
+  font-family: DM Sans !important;
+  text-transform: uppercase !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  color: #ffffff !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  letter-spacing: 1px !important;
+  width: 220px !important;
   background-color: #cda45d;
   text-transform: capitalize;
 }
@@ -11098,20 +11100,21 @@ footer .fa-linkedin-in, footer .fa-instagram, footer .fa-skype {
 }
 .div-news::after {
   content: "Subscribe";
-  border-radius: 30px;
-  background-color: transparent;
-  cursor: pointer;
-  border: 3px #cda45d solid;
-  font-family: DM Sans;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: bold;
-  color: #ffffff;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  letter-spacing: 1px;
+  border-radius: 30px !important;
+  background-color: transparent !important;
+  cursor: pointer !important;
+  border: 3px #cda45d solid !important;
+  font-family: DM Sans !important;
+  text-transform: uppercase !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  color: #ffffff !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  letter-spacing: 1px !important;
+  width: 220px !important;
   background-color: #cda45d;
   text-transform: capitalize;
   width: 160px;
@@ -11136,7 +11139,7 @@ footer .fa-linkedin-in, footer .fa-instagram, footer .fa-skype {
   background-position: right;
   background-size: cover;
   background-attachment: fixed !important;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat !important;
 }
 
 nav {
@@ -11151,6 +11154,14 @@ nav {
 .collapse {
   gap: 40px;
   justify-content: center;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.5) !important;
 }
 
 header {
@@ -11197,6 +11208,10 @@ header i {
 }
 
 @media (max-width: 576px) {
+  header {
+    height: 660px !important;
+    padding-top: 80px !important;
+  }
   header h1 {
     font-size: 36px !important;
   }
@@ -11204,7 +11219,7 @@ header i {
     font-size: 20px !important;
   }
 }
-@media (max-width: 766px) {
+@media (max-width: 762px) {
   header h1 {
     font-size: 32px !important;
   }
@@ -11240,6 +11255,11 @@ header i {
     gap: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1147px) {
+  .navbar button {
+    display: none !important;
   }
 }
 /*!
