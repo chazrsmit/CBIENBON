@@ -11622,10 +11622,15 @@ header i {
   .section-8 h2 {
     font-size: 36px !important;
   }
+  .carousel {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
   .carousel-caption {
     right: 0 !important;
     bottom: 0 !important;
-    top: 48vh !important;
+    top: 59vh !important;
     left: 0% !important;
     width: 80vw !important;
     padding-left: 0 !important;
@@ -11654,7 +11659,11 @@ header i {
   .carousel-inner {
     width: 80vw !important;
     overflow: visible !important;
-    height: 120vh !important;
+    height: 140vh;
+    justify-content: center;
+  }
+  .carousel-item {
+    justify-content: center;
   }
   .carousel-item img {
     width: 80vw !important;
