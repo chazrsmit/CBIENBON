@@ -11274,6 +11274,9 @@ header i {
   .sect3-listing {
     justify-content: center !important;
   }
+  .plat-prix::before {
+    display: none !important;
+  }
 }
 @media (max-width: 778px) {
   header h1 {
@@ -11366,6 +11369,13 @@ header i {
   }
   .plat {
     width: 85vw !important;
+  }
+  .plat-textes {
+    width: 85vw !important;
+    padding-left: 20px !important;
+  }
+  .plat-prix::before {
+    width: 25vw !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1179px) {
