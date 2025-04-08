@@ -10573,6 +10573,7 @@ html body {
   padding-left: 60px !important;
   padding-right: 60px !important;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/img/about-bg.jpg") !important;
+  background-attachment: fixed !important;
 }
 .section-1 img {
   object-fit: cover;
@@ -10742,6 +10743,7 @@ html body {
   padding-left: 60px !important;
   padding-right: 60px !important;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/img/events-bg.jpg");
+  background-attachment: fixed !important;
 }
 
 .sect4-title {
