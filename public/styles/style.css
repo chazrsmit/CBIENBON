@@ -10523,39 +10523,39 @@ nav a {
 }
 
 .btn1 {
-  border-radius: 30px !important;
-  background-color: transparent !important;
-  cursor: pointer !important;
-  border: 3px #cda45d solid !important;
-  font-family: DM Sans !important;
-  text-transform: uppercase !important;
-  font-size: 17px !important;
-  font-weight: bold !important;
-  color: #ffffff !important;
-  padding-left: 30px !important;
-  padding-right: 30px !important;
-  padding-top: 16px !important;
-  padding-bottom: 16px !important;
-  letter-spacing: 1px !important;
-  width: 205px !important;
+  border-radius: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 3px #cda45d solid;
+  font-family: DM Sans;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  letter-spacing: 1px;
+  width: 205px;
 }
 
 .btn2 {
-  border-radius: 30px !important;
-  background-color: transparent !important;
-  cursor: pointer !important;
-  border: 3px #cda45d solid !important;
-  font-family: DM Sans !important;
-  text-transform: uppercase !important;
-  font-size: 17px !important;
-  font-weight: bold !important;
-  color: #ffffff !important;
-  padding-left: 30px !important;
-  padding-right: 30px !important;
-  padding-top: 16px !important;
-  padding-bottom: 16px !important;
-  letter-spacing: 1px !important;
-  width: 205px !important;
+  border-radius: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 3px #cda45d solid;
+  font-family: DM Sans;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  letter-spacing: 1px;
+  width: 205px;
   background-color: #cda45d;
   text-transform: capitalize;
 }
@@ -11099,23 +11099,23 @@ footer .fa-linkedin-in, footer .fa-instagram, footer .fa-skype {
 }
 .div-news::after {
   content: "Subscribe";
-  border-radius: 30px !important;
-  background-color: transparent !important;
-  cursor: pointer !important;
-  border: 3px #cda45d solid !important;
-  font-family: DM Sans !important;
-  text-transform: uppercase !important;
-  font-size: 17px !important;
-  font-weight: bold !important;
-  color: #ffffff !important;
-  padding-left: 30px !important;
-  padding-right: 30px !important;
-  padding-top: 16px !important;
-  padding-bottom: 16px !important;
-  letter-spacing: 1px !important;
-  width: 205px !important;
-  background-color: #cda45d;
-  text-transform: capitalize;
+  border-radius: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 3px #cda45d solid;
+  font-family: DM Sans;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  letter-spacing: 1px;
+  width: 205px;
+  background-color: #cda45d !important;
+  text-transform: capitalize !important;
   width: 160px;
   height: 59px;
   position: absolute;
@@ -11228,6 +11228,12 @@ header i {
   .sect1-txts p {
     font-size: 20px !important;
   }
+  .sect2-rangee {
+    flex-wrap: wrap !important;
+  }
+  .sect3-listing {
+    justify-content: center !important;
+  }
 }
 @media (max-width: 576px) {
   header {
@@ -11262,6 +11268,12 @@ header i {
   .sect1-txts p {
     font-size: 20px !important;
   }
+  .sect2-rangee {
+    flex-wrap: wrap !important;
+  }
+  .sect3-listing {
+    justify-content: center !important;
+  }
 }
 @media (max-width: 778px) {
   header h1 {
@@ -11289,6 +11301,15 @@ header i {
   }
   .section-2 h2 {
     font-size: 40px !important;
+  }
+  .sect2-rangee {
+    flex-wrap: wrap !important;
+  }
+  .sect3-listing {
+    justify-content: center !important;
+  }
+  .plat {
+    width: 85vw !important;
   }
 }
 @media (max-width: 992px) {
@@ -11337,6 +11358,15 @@ header i {
   .sect1-txts p {
     font-size: 20px !important;
   }
+  .sect2-rangee {
+    flex-wrap: wrap !important;
+  }
+  .sect3-listing {
+    justify-content: center !important;
+  }
+  .plat {
+    width: 85vw !important;
+  }
 }
 @media (min-width: 992px) and (max-width: 1179px) {
   .navbar button {
@@ -11359,6 +11389,22 @@ header i {
   .sect1-txts p {
     font-size: 20px !important;
   }
+  .sect2-rangee {
+    flex-wrap: wrap !important;
+  }
+  .sect3-listing {
+    justify-content: center !important;
+  }
+  .plat {
+    width: 85vw !important;
+  }
+  .plat-textes {
+    width: 85vw !important;
+    padding-left: 20px !important;
+  }
+  .plat-prix::before {
+    width: 45vw !important;
+  }
 }
 @media (min-width: 1179px) {
   .section-1 {
@@ -11368,6 +11414,9 @@ header i {
   }
   .section-1 img {
     width: 45vw;
+  }
+  .sect3-listing {
+    justify-content: space-between !important;
   }
 }
 /*!
