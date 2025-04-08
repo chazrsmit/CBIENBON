@@ -154,34 +154,39 @@
 
     <div class="sect3-menu">
 
-        <!-- <div class="sect3-liens d-flex justify-content-center gap-4 mt-5"> -->
+        <div class="sect3-liens d-flex justify-content-center gap-4 mt-5">
 
-            <input name="filter" class="input" type="radio" id="all" value="all" checked>  
-            <label for="all">
+            <!-- <input name="filter" class="input" type="radio" id="all" value="all" checked hidden>   -->
+            <label class="d-flex justify-content-center" for="all">
                 <a class="a-y">All</a>
             </label>
 
-            <input name="filter" class="input" type="radio" id="starters" value="starters"> 
-            <label for="starters">
+            <!-- <input name="filter" class="input" type="radio" id="starters" value="starters" hidden>  -->
+            <label class="d-flex justify-content-center" for="starters">
                 <a class="a-y">Starters</a>
             </label>
 
-            <input name="filter" class="input" type="radio" id="salads" value="salads"> 
-            <label for="salads">
+            <!-- <input name="filter" class="input" type="radio" id="salads" value="salads" hidden>  -->
+            <label class="d-flex justify-content-center" for="salads">
                 <a class="a-y">Salads</a>
             </label>
 
-            <input name="filter" class="input" type="radio" id="specialty" value="specialty"> 
-            <label for="specialty">
+            <!-- <input name="filter" class="input" type="radio" id="specialty" value="specialty" hidden>  -->
+            <label class="d-flex justify-content-center" for="specialty">
                 <a class="a-y">Specialty</a>
             </label>
-        <!-- </div> -->
+        </div>
+
+        <input name="filter" class="input" type="radio" id="all" value="all" checked hidden>
+        <input name="filter" class="input" type="radio" id="starters" value="starters" hidden> 
+        <input name="filter" class="input" type="radio" id="salads" value="salads" hidden>
+        <input name="filter" class="input" type="radio" id="specialty" value="specialty" hidden> 
 
         <!-- <div class="d-flex justify-content-center"> -->
         <div class="sect3-listing d-flex flex-wrap mt-5">
 
             <!-- Plat 1 -->
-            <div class="plat d-flex justify-content-between my-5" id="lobster-bisque" data-category="starters">
+            <div class="plat w-50 d-flex justify-content-between my-5 px-3" id="lobster-bisque" data-category="starters">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/lobster-bisque.jpg" alt="">
                 </div>
@@ -195,8 +200,9 @@
                     <p>$5.95</p>
                 </div>
             </div>
-            <!-- Plat  -->
-            <div class="plat d-flex justify-content-between my-5" id="bread-barrel" data-category="specialty">
+
+            <!-- Plat 2 -->
+            <div class="plat w-50 d-flex justify-content-between my-5 px-3" id="bread-barrel" data-category="specialty">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/bread-barrel.jpg" alt="">
                 </div>
@@ -211,7 +217,7 @@
                 </div>
             </div>
 
-            <div class="plat d-flex justify-content-between my-5" id="crab-cake" data-category="starters">
+            <div class="plat d-flex justify-content-between my-5 w-50 px-3" id="crab-cake" data-category="starters">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/cake.jpg" alt="">
                 </div>
@@ -226,7 +232,7 @@
                 </div>
             </div>
 
-            <div class="plat d-flex justify-content-between my-5" id="ceasar" data-category="salads">
+            <div class="plat d-flex justify-content-between my-5 w-50 px-3" id="ceasar" data-category="salads">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/caesar.jpg" alt="">
                 </div>
@@ -241,7 +247,7 @@
                 </div>
             </div>
 
-            <div class="plat d-flex justify-content-between my-5" id="tuscan" data-category="specialty">
+            <div class="plat d-flex justify-content-between my-5 w-50 px-3" id="tuscan" data-category="specialty">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/tuscan-grilled.jpg" alt="">
                 </div>
@@ -256,7 +262,7 @@
                 </div>
             </div>
 
-            <div class="plat d-flex justify-content-between my-5" id="mozza-sticks" data-category="starters">
+            <div class="plat d-flex justify-content-between my-5 w-50 px-3" id="mozza-sticks" data-category="starters">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/mozzarella.jpg" alt="">
                 </div>
@@ -271,7 +277,7 @@
                 </div>
             </div>
 
-            <div class="plat d-flex justify-content-between my-5" id="greek-salad" data-category="salads">
+            <div class="plat d-flex justify-content-between my-5 w-50 px-3" id="greek-salad" data-category="salads">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/greek-salad.jpg" alt="">
                 </div>
@@ -286,7 +292,7 @@
                 </div>
             </div>
 
-            <div class="plat d-flex justify-content-between my-5" id="spinach-salad" data-category="salads">
+            <div class="plat d-flex justify-content-between my-5 w-50 px-3" id="spinach-salad" data-category="salads">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/spinach-salad.jpg" alt="">
                 </div>
@@ -301,7 +307,7 @@
                 </div>
             </div>
 
-            <div class="plat d-flex justify-content-between mt-5" id="lobster-rolls" data-category="specialty">
+            <div class="plat d-flex justify-content-between mt-5 w-50 px-3" id="lobster-rolls" data-category="specialty">
                 <div class="plat-img d-flex justify-content-start">
                     <img src="./public/assets/img/menu/lobster-roll.jpg" alt="">
                 </div>

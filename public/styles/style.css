@@ -10729,7 +10729,6 @@ html body {
 
 .plat {
   width: 660px;
-  display: none;
 }
 .plat img {
   object-fit: contain;
@@ -10861,6 +10860,7 @@ html body {
   left: 50% !important;
   text-align: start !important;
   padding-left: 30px !important;
+  overflow: visible !important;
 }
 .carousel-caption h2 {
   font-size: 36px !important;
@@ -10876,7 +10876,7 @@ html body {
 }
 
 .carousel-item {
-  height: 80vh !important;
+  height: 90vh !important;
 }
 
 .carousel-indicators {
