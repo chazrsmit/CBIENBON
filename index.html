@@ -551,14 +551,14 @@
 
 <!-- ////////// FOOTER ////////// -->
 
-<footer class="d-flex justify-content-between">
+<footer class="">
 
-    <div class="col-8 d-flex">
-        <div>
-            <p>CBIENBON</p>
-            <p>A108 Adam Street,<br>
+    <div class="d-flex foot">
+        <div id="foot1" class="">
+            <p id="footer-titre">CBIENBON</p>
+            <p id="footer-infos">A108 Adam Street,<br>
             NY 535022</p>
-            <p><b>Phone:</b> +32 456 789 897<br>
+            <p id="footer-infos"><b>Phone:</b> +32 456 789 897<br>
             <b>Email:</b> info@example.com</p>
             <div class="footer-icons d-flex gap-2 pt-2">
                 <div class="f-icon">
@@ -579,9 +579,9 @@
             </div>
         </div>
 
-        <div class="links ms-4">
+        <div id="foot2" class="links">
             <ul>
-                <p>Useful links</p>
+                <p id="footer-titre">Useful links</p>
                 <li class="">Home</li>
                 <li class="">About us</li>
                 <li class="">Services</li>
@@ -590,9 +590,9 @@
             </ul>
         </div>
 
-        <div class="links ms-4">
+        <div id="foot3" class="links">
             <ul>
-                <p>Our services</p>
+                <p id="footer-titre">Our services</p>
                 <li class="">Web design</li>
                 <li class="">Web development</li>
                 <li class="">Product development</li>
@@ -600,9 +600,19 @@
                 <li class="">Privacy policy</li>
             </ul>
         </div>
+
+        <div id="foot4" class="newsletta">
+            <div class="mt-0">
+                <p id="p-news">Our newsletter</p>
+                <p id="p-news2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, aliquid?</p>
+            </div>
+            <div class="div-news mt-5">
+                <input class="rounded-pill" type="email" name="" id="subscribe" placeholder="">
+            </div>
+        </div>
     </div>
 
-    <div class="col-4">
+    <!-- <div class="col-lg-4">
         <div class="mt-0">
             <p id="p-news">Our newsletter</p>
             <p id="p-news2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, aliquid?</p>
@@ -610,7 +620,7 @@
         <div class="div-news mt-5">
             <input class="rounded-pill" type="email" name="" id="subscribe" placeholder="">
         </div>
-    </div>
+    </div> -->
 
 </footer>
 
