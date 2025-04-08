@@ -11031,6 +11031,7 @@ footer {
   padding-left: 60px !important;
   padding-right: 60px !important;
   border-top: rgba(109, 101, 83, 0.3960784314) 1px solid;
+  border-bottom: rgba(109, 101, 83, 0.3960784314) 1px solid;
 }
 footer p:first-of-type {
   font-size: 32px !important;
@@ -11120,6 +11121,12 @@ footer .fa-linkedin-in, footer .fa-instagram, footer .fa-skype {
   justify-content: center;
   align-items: center;
   font-size: 24px !important;
+}
+
+.section-copy {
+  background: #000000;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .section-navhead {
