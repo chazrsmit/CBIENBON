@@ -10569,6 +10569,16 @@ html body {
   padding: 0;
 }
 
+@keyframes play1 {
+  0% {
+    transform: scale(100%);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(700%);
+    opacity: 0;
+  }
+}
 .section-1 {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -11151,13 +11161,21 @@ header span {
 header i {
   color: #ffffff;
   font-size: 18px;
+}
+
+.i-wrapper {
   background-color: #cda45d;
-  padding: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
   padding-top: 27px;
   padding-bottom: 27px;
-  border-radius: 55%;
+  border-radius: 50%;
   box-shadow: 0 0 0 12px rgba(205, 164, 93, 0.2666666667);
   cursor: pointer;
+  overflow: hidden;
+}
+.i-wrapper:hover i {
+  animation: play1 0.5s ease-in-out forwards;
 }
 
 .header-texts {
@@ -11859,7 +11877,7 @@ header i {
     width: 30vw !important;
   }
   .foot {
-    justify-content: between !important;
+    justify-content: space-between !important;
   }
 }
 /*!
