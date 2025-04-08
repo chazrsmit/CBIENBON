@@ -10529,7 +10529,7 @@ nav a {
   border: 3px #cda45d solid !important;
   font-family: DM Sans !important;
   text-transform: uppercase !important;
-  font-size: 18px !important;
+  font-size: 17px !important;
   font-weight: bold !important;
   color: #ffffff !important;
   padding-left: 30px !important;
@@ -10537,7 +10537,7 @@ nav a {
   padding-top: 16px !important;
   padding-bottom: 16px !important;
   letter-spacing: 1px !important;
-  width: 220px !important;
+  width: 205px !important;
 }
 
 .btn2 {
@@ -10547,7 +10547,7 @@ nav a {
   border: 3px #cda45d solid !important;
   font-family: DM Sans !important;
   text-transform: uppercase !important;
-  font-size: 18px !important;
+  font-size: 17px !important;
   font-weight: bold !important;
   color: #ffffff !important;
   padding-left: 30px !important;
@@ -10555,7 +10555,7 @@ nav a {
   padding-top: 16px !important;
   padding-bottom: 16px !important;
   letter-spacing: 1px !important;
-  width: 220px !important;
+  width: 205px !important;
   background-color: #cda45d;
   text-transform: capitalize;
 }
@@ -11106,7 +11106,7 @@ footer .fa-linkedin-in, footer .fa-instagram, footer .fa-skype {
   border: 3px #cda45d solid !important;
   font-family: DM Sans !important;
   text-transform: uppercase !important;
-  font-size: 18px !important;
+  font-size: 17px !important;
   font-weight: bold !important;
   color: #ffffff !important;
   padding-left: 30px !important;
@@ -11114,7 +11114,7 @@ footer .fa-linkedin-in, footer .fa-instagram, footer .fa-skype {
   padding-top: 16px !important;
   padding-bottom: 16px !important;
   letter-spacing: 1px !important;
-  width: 220px !important;
+  width: 205px !important;
   background-color: #cda45d;
   text-transform: capitalize;
   width: 160px;
@@ -11207,6 +11207,12 @@ header i {
   align-items: center !important;
 }
 
+@media (max-width: 410px) {
+  .header-btns {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 576px) {
   header {
     height: 660px !important;
@@ -11217,6 +11223,11 @@ header i {
   }
   header h4 {
     font-size: 20px !important;
+  }
+  .header-btns button {
+    width: 180px !important;
+    font-size: 14px !important;
+    padding: 10px !important;
   }
 }
 @media (max-width: 762px) {
