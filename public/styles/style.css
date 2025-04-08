@@ -11104,8 +11104,8 @@ footer p:first-of-type {
   font-size: 32px !important;
 }
 footer p:nth-of-type(2), footer p:nth-of-type(3) {
-  font-family: Playfair Display !important;
-  font-size: 21px !important;
+  font-family: Playfair Display;
+  font-size: 21px;
 }
 footer i {
   color: #ffffff;
@@ -11123,16 +11123,15 @@ footer .fa-linkedin-in, footer .fa-instagram, footer .fa-skype {
   padding-right: 18px;
 }
 
-.links li {
+.links .foot-li {
   color: #ffffff;
   font-size: 20px;
   text-transform: capitalize;
+  font-family: DM Sans;
 }
-.links li::before {
-  content: "›";
+.links .foot-li b {
   color: #cda45d;
-  margin-right: 8px;
-  font-size: 32px;
+  font-size: 1.4rem;
 }
 .links ul {
   list-style: none;
@@ -11142,7 +11141,7 @@ footer .fa-linkedin-in, footer .fa-instagram, footer .fa-skype {
   font-size: 26px !important;
 }
 
-#p-news {
+#p-news, #footer-titre {
   font-family: Playfair Display;
   font-size: 26px !important;
 }
@@ -11409,12 +11408,6 @@ header i {
     height: 40px;
     width: 240px;
   }
-  #foot1 {
-    margin-left: 4.2vw !important;
-  }
-  #foot4 {
-    margin-left: 21vw !important;
-  }
 }
 @media (max-width: 576px) {
   header {
@@ -11660,18 +11653,17 @@ header i {
   }
   .carousel-inner {
     width: 80vw !important;
+    overflow: visible !important;
+    height: 120vh !important;
   }
   .carousel-item img {
     width: 80vw !important;
-  }
-  .section-4 {
-    padding-left: 50px !important;
   }
   .rangeeimg1, .rangeeimg2 {
     flex-wrap: wrap !important;
   }
   .rangee-chefs {
-    flex-wrap: nowrap !important;
+    flex-wrap: wrap !important;
     gap: 20px !important;
   }
   .rangee-chefs div {
@@ -11723,8 +11715,8 @@ header i {
     height: 40px;
     width: 240px;
   }
-  #foot1 {
-    margin-left: 4.2vw !important;
+  #foot1, #foot2, #foot3, #foot4 {
+    flex: 25% !important;
   }
 }
 @media (min-width: 778px) and (max-width: 992px) {
@@ -11820,12 +11812,6 @@ header i {
     border: rgba(109, 101, 83, 0.3960784314) 1px solid;
     height: 40px;
     width: 240px;
-  }
-  #foot1 {
-    margin-left: 4.2vw !important;
-  }
-  #foot4 {
-    margin-left: 21vw !important;
   }
 }
 @media (max-width: 992px) {
@@ -11943,12 +11929,6 @@ header i {
     height: 40px;
     width: 240px;
   }
-  #foot1 {
-    margin-left: 4.2vw !important;
-  }
-  #foot4 {
-    margin-left: 6vw !important;
-  }
 }
 @media (min-width: 992px) and (max-width: 1179px) {
   .navbar button {
@@ -12022,12 +12002,6 @@ header i {
     border: rgba(109, 101, 83, 0.3960784314) 1px solid;
     height: 40px;
     width: 240px;
-  }
-  #foot1 {
-    margin-left: 4.2vw !important;
-  }
-  #foot4 {
-    margin-left: 21vw !important;
   }
 }
 @media (min-width: 1179px) {
