@@ -103,7 +103,6 @@
 
 .plat
     width: 660px
-    // display: none
     img
         object-fit: contain
         border: $border-img2 8px solid
@@ -112,7 +111,9 @@
         border-radius: 50%
 
 .plat-textes
-    width: 460px
+    // width: 20vw
+    flex: 3
+    margin-left: 1vw
 
 .plat-desc
     color : $lightgrey !important
@@ -120,14 +121,16 @@
 
 .plat-prix
     position: relative
-    &::before
-        content: ""
-        display: block
-        width: 250px
-        border-top: 3.5px dotted $lightgrey
-        position: absolute
-        top: 19px
-        right: 80px
+    flex: 1
+    // &::before
+    //     content: ""
+    //     display: block
+    //     width: 10vw
+    //     flex-grow: 2
+    //     border-top: 3.5px dotted $lightgrey
+    //     position: absolute
+    //     top: 19px
+    //     left: 10px
     p
         color : $yellowish !important
         font-weight: bold !important
@@ -143,6 +146,19 @@
         text-decoration: none
         color : $blanc
         font-size: 22px !important
+
+.vide
+    display: flex
+    // width: 10vw
+    flex: 2
+    align-items: start
+    padding-top: 18px
+    padding-right: 1vw
+    span
+        border-bottom: 2.5px dotted $lightgrey
+        flex-grow: 1
+        // margin-bottom: 20px
+
 
 // #starters:checked ~ .sect3-listing .plat[data-category="starters"],
 // #salads:checked ~ .sect3-listing .plat[data-category="salads"],

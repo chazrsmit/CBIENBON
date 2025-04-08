@@ -10739,7 +10739,8 @@ html body {
 }
 
 .plat-textes {
-  width: 460px;
+  flex: 3;
+  margin-left: 1vw;
 }
 
 .plat-desc {
@@ -10749,15 +10750,7 @@ html body {
 
 .plat-prix {
   position: relative;
-}
-.plat-prix::before {
-  content: "";
-  display: block;
-  width: 250px;
-  border-top: 3.5px dotted #a5a5a5;
-  position: absolute;
-  top: 19px;
-  right: 80px;
+  flex: 1;
 }
 .plat-prix p {
   color: #cda45d !important;
@@ -10774,6 +10767,18 @@ html body {
   text-decoration: none;
   color: #ffffff;
   font-size: 22px !important;
+}
+
+.vide {
+  display: flex;
+  flex: 2;
+  align-items: start;
+  padding-top: 18px;
+  padding-right: 1vw;
+}
+.vide span {
+  border-bottom: 2.5px dotted #a5a5a5;
+  flex-grow: 1;
 }
 
 /* Always show plats by default */
@@ -11363,6 +11368,12 @@ header i {
   }
   .sect3-listing {
     justify-content: center !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+  .plat {
+    width: 100% !important;
   }
   .newsletta {
     width: 30vw !important;
@@ -11443,6 +11454,12 @@ header i {
   }
   .sect3-listing {
     justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+  .plat {
+    width: 100% !important;
   }
   .plat-prix::before {
     display: none !important;
@@ -11478,12 +11495,11 @@ header i {
   }
   .carousel-inner {
     width: 80vw !important;
+    height: 125vh !important;
+    overflow: visible !important;
   }
   .carousel-item img {
     width: 80vw !important;
-  }
-  .section-4 {
-    padding-left: 36px !important;
   }
   .rangeeimg1, .rangeeimg2 {
     flex-wrap: wrap !important;
@@ -11589,9 +11605,11 @@ header i {
   }
   .sect3-listing {
     justify-content: center !important;
+    flex-direction: column !important;
+    width: 100% !important;
   }
   .plat {
-    width: 80vw !important;
+    width: 100% !important;
   }
   .section-3 h2 {
     font-size: 36px !important;
@@ -11861,9 +11879,11 @@ header i {
   }
   .sect3-listing {
     justify-content: center !important;
+    flex-direction: column !important;
+    width: 100% !important;
   }
   .plat {
-    width: 80vw !important;
+    width: 100% !important;
   }
   .plat-textes {
     width: 80vw !important;
@@ -11956,9 +11976,11 @@ header i {
   }
   .sect3-listing {
     justify-content: center !important;
+    flex-direction: column !important;
+    width: 100% !important;
   }
   .plat {
-    width: 80vw !important;
+    width: 100% !important;
   }
   .plat-textes {
     width: 80vw !important;
@@ -12019,6 +12041,9 @@ header i {
   }
   .sect3-listing {
     justify-content: space-between !important;
+  }
+  .plat {
+    width: 50% !important;
   }
   .newsletta {
     width: 30vw !important;
