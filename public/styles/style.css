@@ -10729,6 +10729,7 @@ html body {
 
 .plat {
   width: 660px;
+  display: none;
 }
 .plat img {
   object-fit: contain;
