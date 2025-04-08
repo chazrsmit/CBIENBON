@@ -10687,6 +10687,15 @@ html body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.sect2-card:hover {
+  background-color: #cda45d;
+}
+.sect2-card:hover p {
+  color: #ffffff !important;
+}
+.sect2-card:hover p:first-child {
+  color: #ffffff !important;
+}
 .sect2-card h3 {
   color: #e0e0e0 !important;
   font-size: 38px !important;
@@ -11084,7 +11093,7 @@ footer .fa-linkedin-in, footer .fa-instagram, footer .fa-skype {
 #subscribe {
   background-color: #27251f;
   border: rgba(109, 101, 83, 0.3960784314) 1px solid;
-  height: 60px;
+  height: 61px;
   width: 320px;
 }
 
@@ -11282,13 +11291,13 @@ header i {
     align-items: center !important;
   }
   .section-1 img {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .div-img {
     height: 400px !important;
   }
   .sect1-txts {
-    width: 85vw;
+    width: 80vw;
   }
   .sect1-txts p {
     font-size: 20px !important;
@@ -11362,13 +11371,13 @@ header i {
     align-items: center !important;
   }
   .section-1 img {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .div-img {
     height: 400px !important;
   }
   .sect1-txts {
-    width: 85vw;
+    width: 80vw;
   }
   .sect1-txts p {
     font-size: 20px !important;
@@ -11387,7 +11396,7 @@ header i {
     bottom: 0 !important;
     top: 320px !important;
     left: 0% !important;
-    width: 85vw !important;
+    width: 80vw !important;
     padding-left: 0 !important;
   }
   .carousel-caption p:first-of-type {
@@ -11412,10 +11421,10 @@ header i {
     font-size: 28px !important;
   }
   .carousel-inner {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .carousel-item img {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .section-4 {
     padding-left: 36px !important;
@@ -11452,7 +11461,7 @@ header i {
     padding-left: 7vw !important;
   }
   .section-8 form {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .sect8-form-debut {
     gap: 15px !important;
@@ -11505,13 +11514,13 @@ header i {
     align-items: center !important;
   }
   .section-1 img {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .div-img {
     height: 400px !important;
   }
   .sect1-txts {
-    width: 85vw;
+    width: 80vw;
   }
   .sect1-txts p {
     font-size: 20px !important;
@@ -11526,7 +11535,7 @@ header i {
     justify-content: center !important;
   }
   .plat {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .section-3 h2 {
     font-size: 36px !important;
@@ -11551,7 +11560,7 @@ header i {
     bottom: 0 !important;
     top: 48vh !important;
     left: 0% !important;
-    width: 85vw !important;
+    width: 80vw !important;
     padding-left: 0 !important;
   }
   .carousel-caption p:first-of-type {
@@ -11576,10 +11585,10 @@ header i {
     font-size: 28px !important;
   }
   .carousel-inner {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .carousel-item img {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .section-4 {
     padding-left: 50px !important;
@@ -11601,7 +11610,7 @@ header i {
     width: 100% !important;
   }
   .section-8 form {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .sect8-form-debut {
     gap: 15px !important;
@@ -11650,7 +11659,7 @@ header i {
     bottom: 0 !important;
     top: 55vh !important;
     left: 0% !important;
-    width: 85vw !important;
+    width: 80vw !important;
     padding-left: 0 !important;
   }
   .carousel-caption p:first-of-type {
@@ -11675,10 +11684,10 @@ header i {
     font-size: 28px !important;
   }
   .carousel-inner {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .carousel-item img {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .rangeeimg1, .rangeeimg2 {
     flex-wrap: wrap !important;
@@ -11698,7 +11707,7 @@ header i {
     width: 100% !important;
   }
   .section-8 form {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .sect8-form-debut {
     gap: 15px !important;
@@ -11780,13 +11789,13 @@ header i {
     align-items: center !important;
   }
   .section-1 img {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .div-img {
     height: 400px !important;
   }
   .sect1-txts {
-    width: 85vw;
+    width: 80vw;
   }
   .sect1-txts p {
     font-size: 20px !important;
@@ -11798,10 +11807,10 @@ header i {
     justify-content: center !important;
   }
   .plat {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .plat-textes {
-    width: 85vw !important;
+    width: 80vw !important;
     padding-left: 20px !important;
   }
   .plat-prix::before {
@@ -11875,13 +11884,13 @@ header i {
     align-items: center !important;
   }
   .section-1 img {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .div-img {
     height: 400px !important;
   }
   .sect1-txts {
-    width: 85vw;
+    width: 80vw;
   }
   .sect1-txts p {
     font-size: 20px !important;
@@ -11893,10 +11902,10 @@ header i {
     justify-content: center !important;
   }
   .plat {
-    width: 85vw !important;
+    width: 80vw !important;
   }
   .plat-textes {
-    width: 85vw !important;
+    width: 80vw !important;
     padding-left: 20px !important;
   }
   .plat-prix::before {
