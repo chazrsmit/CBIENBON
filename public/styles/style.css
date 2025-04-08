@@ -11079,6 +11079,49 @@ footer .fa-linkedin-in, footer .fa-instagram, footer .fa-skype {
   font-size: 26px !important;
 }
 
+#p-news2 {
+  font-family: DM Sans !important;
+}
+
+#subscribe {
+  background-color: #27251f;
+  border: rgba(109, 101, 83, 0.3960784314) 1px solid;
+  height: 60px;
+  width: 320px;
+}
+
+.div-news {
+  position: relative;
+}
+.div-news::after {
+  content: "Subscribe";
+  border-radius: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 3px #cda45d solid;
+  font-family: DM Sans;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  letter-spacing: 1px;
+  background-color: #cda45d;
+  text-transform: capitalize;
+  width: 160px;
+  height: 60px;
+  position: absolute;
+  bottom: 1px;
+  right: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px !important;
+}
+
 .section-navhead {
   background: linear-gradient(0deg, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.6)), url("../assets/img/hero-bg.jpg") !important;
   background-position: right;
