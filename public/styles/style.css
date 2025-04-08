@@ -11291,6 +11291,21 @@ header i {
   .section-5 .div-input {
     width: 100% !important;
   }
+  .rangee-chefs {
+    flex-wrap: wrap !important;
+  }
+  .rangee-chefs div {
+    margin-bottom: 10px !important;
+  }
+  .sect8-elements {
+    flex-direction: column !important;
+  }
+  .sect8-icons {
+    width: 100% !important;
+  }
+  .section-8 form {
+    width: 85vw !important;
+  }
 }
 @media (min-width: 576px) and (max-width: 778px) {
   header h1 {
@@ -11387,6 +11402,22 @@ header i {
   .rangeeimg1, .rangeeimg2 {
     flex-wrap: wrap !important;
   }
+  .rangee-chefs {
+    flex-wrap: nowrap !important;
+    gap: 20px !important;
+  }
+  .rangee-chefs div {
+    margin-bottom: 10px !important;
+  }
+  .sect8-elements {
+    flex-direction: column !important;
+  }
+  .sect8-icons {
+    width: 100% !important;
+  }
+  .section-8 form {
+    width: 85vw !important;
+  }
 }
 @media (min-width: 778px) and (max-width: 992px) {
   .carousel-caption {
@@ -11427,6 +11458,22 @@ header i {
   .rangeeimg1, .rangeeimg2 {
     flex-wrap: wrap !important;
     justify-content: center !important;
+  }
+  .rangee-chefs {
+    flex-wrap: nowrap !important;
+    gap: 20px !important;
+  }
+  .rangee-chefs div {
+    margin-bottom: 10px !important;
+  }
+  .sect8-elements {
+    flex-direction: column !important;
+  }
+  .sect8-icons {
+    width: 100% !important;
+  }
+  .section-8 form {
+    width: 85vw !important;
   }
 }
 @media (max-width: 992px) {
