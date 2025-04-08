@@ -11284,6 +11284,13 @@ header i {
     flex-wrap: wrap !important;
     justify-content: center !important;
   }
+  .section-5 .formmm, .section-5 .formmm2 {
+    flex-wrap: wrap !important;
+    flex-direction: column !important;
+  }
+  .section-5 .div-input {
+    width: 100% !important;
+  }
 }
 @media (min-width: 576px) and (max-width: 778px) {
   header h1 {
