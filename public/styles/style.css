@@ -10538,6 +10538,10 @@ nav a {
   padding-bottom: 16px;
   letter-spacing: 1px;
   width: 205px;
+  transition: 0.3s ease-in-out;
+}
+.btn1:hover {
+  background-color: #cda45d;
 }
 
 .btn2 {
@@ -10558,6 +10562,11 @@ nav a {
   width: 205px;
   background-color: #cda45d;
   text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+}
+.btn2:hover {
+  background-color: #e3c795;
+  border-color: #e3c795 !important;
 }
 
 html {
@@ -11027,9 +11036,10 @@ textarea[placeholder] {
 
 .img-chef {
   position: relative;
+  z-index: 0 !important;
 }
 .img-chef:hover .overlay {
-  opacity: 0.6 !important;
+  opacity: 1;
 }
 .img-chef img {
   position: relative;
@@ -11047,7 +11057,22 @@ textarea[placeholder] {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgb(0, 0, 0));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
+  z-index: 2 !important;
+}
+
+.text {
+  color: white;
+  font-family: Playfair Display;
+  font-size: 20px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1000 !important;
 }
 
 .section-8 {
@@ -11208,7 +11233,7 @@ footer .fa-linkedin-in, footer .fa-instagram, footer .fa-skype {
   width: 160px;
   height: 60px;
   position: absolute;
-  bottom: 1px;
+  bottom: 0px;
   right: 74px;
   display: flex;
   justify-content: center;

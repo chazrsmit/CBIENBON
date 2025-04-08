@@ -55,11 +55,18 @@ nav
 
 .btn1
     @include btn1
+    transition: 0.3s ease-in-out
+    &:hover
+        background-color: $yellowish
 
 .btn2
     @include btn1 
     background-color: $yellowish
     text-transform: capitalize
+    transition: 0.3s ease-in-out
+    &:hover
+        background-color: $yellowish3
+        border-color: $yellowish3 !important
 
 // Autres
 
