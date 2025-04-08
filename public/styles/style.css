@@ -11025,12 +11025,29 @@ textarea[placeholder] {
   bottom: 20px !important;
 }
 
-.rangee-chefs div {
-  width: 440px;
-  height: 440px;
+.img-chef {
+  position: relative;
 }
-.rangee-chefs div img {
+.img-chef:hover .overlay {
+  opacity: 0.6 !important;
+}
+.img-chef img {
+  position: relative;
+  width: 30vw;
+  height: 30vw;
+  object-fit: contain;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgb(0, 0, 0));
 }
 
 .section-8 {
@@ -12055,6 +12072,9 @@ header i {
   .div-news::after {
     content: "Subscribe";
     right: 0px;
+  }
+  header {
+    height: 110vh;
   }
   header h1 {
     font-size: 4rem;
