@@ -10979,6 +10979,15 @@ textarea[placeholder] {
 .section-6 img {
   border: #484642 3px solid;
 }
+.section-6 .rangeeimg1 .divimgg, .section-6 .rangeeimg2 .divimgg {
+  overflow: hidden;
+}
+.section-6 .rangeeimg1 .divimgg:hover img, .section-6 .rangeeimg2 .divimgg:hover img {
+  transform: scale(1.2);
+}
+.section-6 .rangeeimg1 .divimgg img, .section-6 .rangeeimg2 .divimgg img {
+  transition: transform 0.5s ease-in-out;
+}
 
 .sect6-title {
   position: relative;
@@ -12033,6 +12042,9 @@ header i {
   }
   .foot {
     justify-content: space-between !important;
+  }
+  .rangee-chefs {
+    gap: 10px;
   }
 }
 /*!
