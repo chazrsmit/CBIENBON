@@ -110,9 +110,20 @@
         height: 110px
         border-radius: 50%
 
+@media (max-width: 568px)
+    .plat
+        width: 94vw
+        img
+            width: 80px 
+            height: 80px
+        p
+            font-size: 17px !important
+    .plat-textes
+        width: 50vw !important
+
 .plat-textes
     // width: 20vw
-    flex: 3
+    // flex: 3
     margin-left: 1vw
 
 .plat-desc
@@ -122,15 +133,6 @@
 .plat-prix
     position: relative
     flex: 1
-    // &::before
-    //     content: ""
-    //     display: block
-    //     width: 10vw
-    //     flex-grow: 2
-    //     border-top: 3.5px dotted $lightgrey
-    //     position: absolute
-    //     top: 19px
-    //     left: 10px
     p
         color : $yellowish !important
         font-weight: bold !important
@@ -138,7 +140,7 @@
 .plat-titre
     p
         font-weight: bold
-        font-size: 26px !important
+        font-size: 26px 
 
 .sect3-liens
     a
@@ -151,51 +153,6 @@
     border-bottom: 2.5px dotted $lightgrey
     flex: 1 1 auto
     width: auto
-
-// .vide
-//     display: flex
-//     // width: 10vw
-//     flex: 2
-//     align-items: start
-//     padding-top: 18px
-//     padding-right: 1vw
-//     span
-//         border-bottom: 2.5px dotted $lightgrey
-//         flex-grow: 1
-//         // margin-bottom: 20px
-
-
-// #starters:checked ~ .sect3-listing .plat[data-category="starters"],
-// #salads:checked ~ .sect3-listing .plat[data-category="salads"],
-// #specialty:checked ~ .sect3-listing .plat[data-category="specialty"]
-//     display: block
-
-// [value="all"]:checked ~ .plat [data-category]
-//     display: block
-
-// [value="starters"]:checked ~ .sect3-listing .plat:not([data-category="starters"]),
-// [value="salads"]:checked ~ .sect3-listing .plat:not([data-category="salads"]),
-// [value="specialty"]:checked ~ .sect3-listing .plat:not([data-category="specialty"])
-//     display:none
-//     animation: fadeOut .25s
-
-
-// [value="starters"]:not(:checked) ~ .sect3-listing .plat[data-category="starters"],
-// [value="salads"]:not(:checked) ~ .sect3-listing .plat[data-category="salads"],
-// [value="specialty"]:not(:checked) ~ .sect3-listing .plat[data-category="specialty"]
-//     animation: fadeIn .25s
-
-// @keyframes fadeIn
-//     0% 
-//         opacity: 0
-//     100%
-//         opacity: 1
-
-// @keyframes fadeOut
-//     0%
-//         opacity: 1
-//     100%
-//         opacity: 0
 
 
 /* Always show plats by default */
