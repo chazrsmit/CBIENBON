@@ -11258,7 +11258,7 @@ footer .fa-linkedin-in, footer .fa-instagram, footer .fa-skype {
 .section-navhead {
   background: linear-gradient(0deg, rgba(39, 39, 39, 0.6), rgba(39, 39, 39, 0.6)), url("../assets/img/hero-bg.jpg") !important;
   background-position: right;
-  background-size: cover;
+  background-size: cover !important;
   background-attachment: fixed !important;
   background-repeat: no-repeat !important;
 }
@@ -11286,7 +11286,7 @@ nav {
 }
 
 header {
-  height: 900px;
+  height: 109vh;
   padding-top: 30px !important;
   display: flex;
   justify-content: center !important;
