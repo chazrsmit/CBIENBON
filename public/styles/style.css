@@ -11285,9 +11285,20 @@ nav {
   z-index: 1000 !important;
 }
 
-.collapse {
-  gap: 40px;
-  justify-content: center;
+#navbarNavAltMarkup {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 999;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
 }
 
 .navbar-toggler-icon {
