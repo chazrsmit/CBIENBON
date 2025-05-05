@@ -10778,16 +10778,10 @@ html body {
   font-size: 22px !important;
 }
 
-.vide {
-  display: flex;
-  flex: 2;
-  align-items: start;
-  padding-top: 18px;
-  padding-right: 1vw;
-}
-.vide span {
+.points {
   border-bottom: 2.5px dotted #a5a5a5;
-  flex-grow: 1;
+  flex: 1 1 auto;
+  width: auto;
 }
 
 /* Always show plats by default */
@@ -11044,7 +11038,7 @@ textarea[placeholder] {
 .img-chef img {
   position: relative;
   width: 27vw;
-  height: 28vw;
+  height: 27vw;
   object-fit: contain;
 }
 
@@ -11323,7 +11317,7 @@ header i {
   overflow: hidden;
 }
 .i-wrapper-2:hover i {
-  animation: play1 0.5s ease-in-out forwards;
+  animation: play1 0.5s ease-in-out;
 }
 
 .header-texts {
